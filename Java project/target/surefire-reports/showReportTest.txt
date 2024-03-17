@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: showReportTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.217 s <<< FAILURE! - in showReportTest
+testStatusWithDone  Time elapsed: 0.106 s  <<< ERROR!
+java.lang.NullPointerException: Cannot read the array length because "showReport.taskStat" is null
+	at showReportTest.testStatusWithDone(showReportTest.java:109)
+
